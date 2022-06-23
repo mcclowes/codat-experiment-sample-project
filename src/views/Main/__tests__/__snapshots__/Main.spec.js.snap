@@ -2,15 +2,56 @@
 
 exports[`renders component 1`] = `
 <Page>
-  <SmartContainer>
+  <div>
+    <csx__Header
+      theme={
+        Object {
+          "colors": Object {
+            "black": "#333333",
+          },
+        }
+      }
+    >
+      Copay Codat sample project
+    </csx__Header>
     <Text>
-      Hello World!
+      Codat is the universal API for small business data. We provide real-time connectivity to enable software providers and financial institutions to build integrated products for their small business customers.
     </Text>
-  </SmartContainer>
-  <Dumb>
     <Text>
-      This is an example project. Make changes as you see fit.
+      Small businesses run on many different platforms. Codat gives these platforms a standard way to connect with each other so they can move data around seamlessly at scale.
     </Text>
-  </Dumb>
+    <Text>
+      <a
+        href="https://docs.codat.io/docs"
+        target="_blank"
+      >
+        Codat docs
+      </a>
+    </Text>
+    <Text>
+      <a
+        href="https://docs.codat.io/docs/get-started-api"
+        target="_blank"
+      >
+        Getting started for developers
+      </a>
+    </Text>
+    <Text>
+      <a
+        href="https://app.codat.io/"
+        target="_blank"
+      >
+        The Codat Portal
+      </a>
+    </Text>
+    <Text>
+      <a
+        href="https://link.codat.io/client/042399f5-d104-4f38-9ce8-cac3524f4e88?user=0cdff739-aeb9-40dd-87ee-0e0bc17184c8"
+        target="_blank"
+      >
+        Invite URL
+      </a>
+    </Text>
+  </div>
 </Page>
 `;

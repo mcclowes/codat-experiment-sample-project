@@ -7,13 +7,17 @@ const LINKS = [
     text: "Main",
   },
   {
-    to: "/alt",
-    text: "Alt",
+    to: "/companies",
+    text: "Companies",
+  },
+  {
+    to: "/data-types",
+    text: "Data types",
   },
 ];
 
 const Nav = () => {
-  return <NavUtil logo="mcclowes-react-sample-project" links={LINKS} />;
+  return <NavUtil logo="Copay" links={LINKS} />;
 };
 
 export default Nav;

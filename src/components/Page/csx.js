@@ -9,10 +9,11 @@ export const PageWrapper = styled("div")`
     ${(props) => props.theme.colors.alt} 100%
   );
   display: flex;
-  height: 100vh;
   justify-content: center;
-  overflow: hidden;
   width: 100vw;
+  min-height: 100vh;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 `;
 
 export const PageContainer = styled("div")`
@@ -21,7 +22,7 @@ export const PageContainer = styled("div")`
   display: flex;
   flex-direction: column;
   padding: 1em 2em;
-  text-align: center;
+  width: 80vw;
 
   -webkit-box-shadow: 0px 4px 28px 6px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 4px 28px 6px rgba(0, 0, 0, 0.3);

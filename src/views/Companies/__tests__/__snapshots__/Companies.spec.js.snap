@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders component 1`] = `
+<Page>
+  <div>
+    <csx__Header
+      theme={
+        Object {
+          "colors": Object {
+            "black": "#333333",
+          },
+        }
+      }
+    >
+      Companies
+    </csx__Header>
+    <Text>
+      <a
+        href="https://link.codat.io/client/042399f5-d104-4f38-9ce8-cac3524f4e88?user=0cdff739-aeb9-40dd-87ee-0e0bc17184c8"
+        target="_blank"
+      >
+        Invite URL
+      </a>
+    </Text>
+  </div>
+  <div>
+    <Loader />
+  </div>
+</Page>
+`;

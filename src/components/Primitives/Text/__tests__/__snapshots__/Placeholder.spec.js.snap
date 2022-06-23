@@ -9,23 +9,26 @@ exports[`Text Header renders default component 1`] = `
         "theme": Object {
           "colors": Object {
             "black": "#333333",
+            "primary": "#666666",
           },
         },
       },
       "attrs": Array [],
       "componentStyle": ComponentStyle {
-        "componentId": "csx__Paragraph-sc-7rfchg-1",
+        "componentId": "csx__Paragraph-sc-18yjhf7-1",
         "isStatic": false,
         "rules": Array [
           "color:",
           [Function],
-          ";font-family:\\"Cantarell\\",sans-serif;",
+          ";font-family:\\"Cantarell\\",sans-serif;a{text-decoration:none;color:",
+          [Function],
+          ";&:hover{opacity:0.75;}}",
         ],
       },
       "displayName": "csx__Paragraph",
       "foldedComponentIds": Array [],
       "render": [Function],
-      "styledComponentId": "csx__Paragraph-sc-7rfchg-1",
+      "styledComponentId": "csx__Paragraph-sc-18yjhf7-1",
       "target": "p",
       "toString": [Function],
       "usesTheme": true,
@@ -38,6 +41,7 @@ exports[`Text Header renders default component 1`] = `
     Object {
       "colors": Object {
         "black": "#333333",
+        "primary": "#666666",
       },
     }
   }
@@ -55,23 +59,26 @@ exports[`Text Text renders default component 1`] = `
         "theme": Object {
           "colors": Object {
             "black": "#333333",
+            "primary": "#666666",
           },
         },
       },
       "attrs": Array [],
       "componentStyle": ComponentStyle {
-        "componentId": "csx__Paragraph-sc-7rfchg-1",
+        "componentId": "csx__Paragraph-sc-18yjhf7-1",
         "isStatic": false,
         "rules": Array [
           "color:",
           [Function],
-          ";font-family:\\"Cantarell\\",sans-serif;",
+          ";font-family:\\"Cantarell\\",sans-serif;a{text-decoration:none;color:",
+          [Function],
+          ";&:hover{opacity:0.75;}}",
         ],
       },
       "displayName": "csx__Paragraph",
       "foldedComponentIds": Array [],
       "render": [Function],
-      "styledComponentId": "csx__Paragraph-sc-7rfchg-1",
+      "styledComponentId": "csx__Paragraph-sc-18yjhf7-1",
       "target": "p",
       "toString": [Function],
       "usesTheme": true,
@@ -84,6 +91,7 @@ exports[`Text Text renders default component 1`] = `
     Object {
       "colors": Object {
         "black": "#333333",
+        "primary": "#666666",
       },
     }
   }
@@ -101,23 +109,26 @@ exports[`Text Text renders default component 2`] = `
         "theme": Object {
           "colors": Object {
             "black": "#333333",
+            "primary": "#666666",
           },
         },
       },
       "attrs": Array [],
       "componentStyle": ComponentStyle {
-        "componentId": "csx__Paragraph-sc-7rfchg-1",
+        "componentId": "csx__Paragraph-sc-18yjhf7-1",
         "isStatic": false,
         "rules": Array [
           "color:",
           [Function],
-          ";font-family:\\"Cantarell\\",sans-serif;",
+          ";font-family:\\"Cantarell\\",sans-serif;a{text-decoration:none;color:",
+          [Function],
+          ";&:hover{opacity:0.75;}}",
         ],
       },
       "displayName": "csx__Paragraph",
       "foldedComponentIds": Array [],
       "render": [Function],
-      "styledComponentId": "csx__Paragraph-sc-7rfchg-1",
+      "styledComponentId": "csx__Paragraph-sc-18yjhf7-1",
       "target": "p",
       "toString": [Function],
       "usesTheme": true,
@@ -130,6 +141,7 @@ exports[`Text Text renders default component 2`] = `
     Object {
       "colors": Object {
         "black": "#333333",
+        "primary": "#666666",
       },
     }
   }
@@ -147,23 +159,26 @@ exports[`Text renders default component 1`] = `
         "theme": Object {
           "colors": Object {
             "black": "#333333",
+            "primary": "#666666",
           },
         },
       },
       "attrs": Array [],
       "componentStyle": ComponentStyle {
-        "componentId": "csx__Paragraph-sc-7rfchg-1",
+        "componentId": "csx__Paragraph-sc-18yjhf7-1",
         "isStatic": false,
         "rules": Array [
           "color:",
           [Function],
-          ";font-family:\\"Cantarell\\",sans-serif;",
+          ";font-family:\\"Cantarell\\",sans-serif;a{text-decoration:none;color:",
+          [Function],
+          ";&:hover{opacity:0.75;}}",
         ],
       },
       "displayName": "csx__Paragraph",
       "foldedComponentIds": Array [],
       "render": [Function],
-      "styledComponentId": "csx__Paragraph-sc-7rfchg-1",
+      "styledComponentId": "csx__Paragraph-sc-18yjhf7-1",
       "target": "p",
       "toString": [Function],
       "usesTheme": true,
@@ -176,6 +191,7 @@ exports[`Text renders default component 1`] = `
     Object {
       "colors": Object {
         "black": "#333333",
+        "primary": "#666666",
       },
     }
   }

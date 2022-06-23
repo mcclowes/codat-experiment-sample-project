@@ -1,9 +1,9 @@
-import AltContainer from "../AltContainer";
+import DataTypes from "../DataTypes";
 import React from "react";
 import { shallow } from "enzyme";
 
 it("renders component", () => {
-  const wrapper = shallow(<AltContainer />);
+  const wrapper = shallow(<DataTypes />);
 
   expect(wrapper).toMatchSnapshot();
 });

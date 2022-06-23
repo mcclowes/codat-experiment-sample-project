@@ -1,5 +1,5 @@
 {
-  "name": "mcclowes-react-sample-project",
+  "name": "codat-sample-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,7 +42,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run format:staged && npm run test && npm run circleci:validate"
+      "pre-commit": "npm run format:staged && npm run test"
     }
   },
   "eslintConfig": {

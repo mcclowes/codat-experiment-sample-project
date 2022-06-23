@@ -5,7 +5,7 @@ import Routes from "./routing/Routes";
 import theme from "./theme";
 import { ThemeProvider } from "styled-components/macro";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <GlobalStyle />
@@ -13,7 +13,7 @@ function App() {
       <Helmet>
         <meta charSet="utf-8" />
 
-        <title>Mcclowes React Sample Project</title>
+        <title>Copay</title>
       </Helmet>
 
       <ThemeProvider theme={theme}>
@@ -21,7 +21,7 @@ function App() {
       </ThemeProvider>
     </div>
   );
-}
+};
 
 export default App;
 // todo: routing

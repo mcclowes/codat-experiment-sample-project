@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders component 1`] = `
+<Page>
+  <div>
+    <csx__Header
+      theme={
+        Object {
+          "colors": Object {
+            "black": "#333333",
+          },
+        }
+      }
+    >
+      Data types
+    </csx__Header>
+    <Text>
+      <a
+        href="https://app.codat.io/settings/data-types"
+        target="_blank"
+      >
+        Manage settings
+      </a>
+    </Text>
+  </div>
+  <div>
+    <Loader />
+  </div>
+</Page>
+`;

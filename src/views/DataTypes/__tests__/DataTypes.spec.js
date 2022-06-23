@@ -1,4 +1,4 @@
-import SmartContainer from "../SmartContainer";
+import DataTypes from "../DataTypes";
 import React from "react";
 import { shallow } from "enzyme";
 
@@ -10,7 +10,7 @@ const renderComponent = (newProps) => {
     ...newProps,
   };
 
-  return shallow(<SmartContainer {...props} />);
+  return shallow(<DataTypes {...props} />);
 };
 
 let wrapper;

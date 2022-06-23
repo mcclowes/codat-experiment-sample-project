@@ -17,11 +17,21 @@ Header.defaultProps = {
 export const Paragraph = styled.p`
   color: ${(props) => props.theme.colors.black};
   font-family: "Cantarell", sans-serif;
+
+  a {
+    text-decoration: none;
+    color: ${(props) => props.theme.colors.primary};
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
 `;
 
 Paragraph.defaultProps = {
   theme: {
     colors: {
+      primary: "#666666",
       black: "#333333",
     },
   },

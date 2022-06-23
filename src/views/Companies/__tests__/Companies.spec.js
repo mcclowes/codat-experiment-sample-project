@@ -1,4 +1,4 @@
-import Alt from "../Alt";
+import Companies from "../Companies";
 import React from "react";
 import { shallow } from "enzyme";
 
@@ -10,7 +10,7 @@ const renderComponent = (newProps) => {
     ...newProps,
   };
 
-  return shallow(<Alt {...props} />);
+  return shallow(<Companies {...props} />);
 };
 
 let wrapper;
