@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders component 1`] = `
+<Page>
+  <SmartContainer>
+    <Text>
+      Hello World!
+    </Text>
+  </SmartContainer>
+  <Dumb>
+    <Text>
+      This is an example project. Make changes as you see fit.
+    </Text>
+  </Dumb>
+</Page>
+`;
