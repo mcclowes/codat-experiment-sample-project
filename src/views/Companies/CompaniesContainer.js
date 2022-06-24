@@ -11,7 +11,12 @@ const fetchCompanies = async (callback) => {
 
   const result = await fetch(baseUrl, {
     method: "GET",
-    headers: { authorization: "Basic " + encodedKey },
+    headers: {
+      authorization: "Basic " + encodedKey,
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers":
+        "Origin, X-Requested-With, Content-Type, Accept",
+    },
   }).then((response) => response.json());
 
   callback(result.results);

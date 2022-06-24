@@ -12,8 +12,8 @@ export const PageWrapper = styled("div")`
   justify-content: center;
   width: 100vw;
   min-height: 100vh;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 5.5rem;
+  padding-bottom: 5.5rem;
 `;
 
 export const PageContainer = styled("div")`

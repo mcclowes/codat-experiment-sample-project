@@ -34,7 +34,7 @@ const LinkWrapper = styled(NavLink)`
 `;
 
 const Overlay = styled.div`
-  background-color: #ffffffdd;
+  background-color: #ffffff;
   height: calc(100vh - 4em);
   position: absolute;
   width: 100%;
@@ -80,6 +80,7 @@ NavBar.defaultProps = {
 const MobileWrapper = styled(Breakpoint)`
   position: absolute;
   width: 100%;
+  z-index: 99;
 `;
 
 export {
