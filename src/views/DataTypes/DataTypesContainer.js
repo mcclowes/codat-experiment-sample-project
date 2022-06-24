@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import DataTypes from "./DataTypes";
 
 //const baseUrl = "http://0.0.0.0:8080/https://api.codat.io/profile/syncSettings";
-const baseUrl = "https://api.codat.io/profile/syncSettings";
+const baseUrl =
+  "https://cors-anywhere.herokuapp.com/https://api.codat.io/profile/syncSettings";
 
 const arrayOfSetOfValues = (arr) => {
   return Array.from(new Set(arr));
@@ -17,9 +18,6 @@ const fetchDataTypes = async (callback) => {
     method: "GET",
     headers: {
       authorization: "Basic " + encodedKey,
-      "Access-Control-Allow-Origin": "*",
-      "Access-Control-Allow-Headers":
-        "Origin, X-Requested-With, Content-Type, Accept",
     },
   }).then((response) => response.json());
 
